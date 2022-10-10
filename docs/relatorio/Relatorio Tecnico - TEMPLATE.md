@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  POKEDEX  ......
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... SISTEMAS DE INFORMAÇÃO  ......
 
 ## Participantes
 
@@ -14,8 +14,11 @@
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Gustavo Silvino
+> - Gustavo Ferreira
+> - Diogo dos Santos 
+> - Julia Fernandes Malaquias
+
 
 # Estrutura do Documento
 
@@ -41,23 +44,23 @@
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
+> As pokedex dos jogos oficiais da franquia pokemon,
+> principalmente os jogos mais antigos não possuem todos
+> os filtros de tipagem, filtro por região, apenas os 
+> pokemons que você capturou dentro do jogo.
+> Cada jogo da franquia tem uma pokedéx especifica
+
 
 ## Objetivos
 
 ......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
+ 
+Nosso objetivo é fazer um site de pokémon que
+apresenta uma pokedéx geral, completa e com mais filtros. 
+Além de um guia explicando algumas funcionalidades 
+que os jogos não explicam direito, como um guia de iniciais e atributos,
+os tipos dos pokemon e suas vantagens e desvantagens,
+e um guia sobre os iniciais de cada região.
 > 
 > **Link Útil**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
@@ -114,11 +117,12 @@
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
+|EU COMO... `PERSONA`|      QUERO/PRECISO ... `FUNCIONALIDADE`         |               PARA ... `MOTIVO/VALOR`                 |
+|--------------------|-------------------------------------------------|-------------------------------------------------------|
+|Jogador Inexperiente| Saber sobre as vantagens de tipo do meu pokemon | Para encaixa-lo da melhor forma no time de 6 pokémon  |
+|Jogador Experiente  | Saber os iniciais de algum jogo especifico      | Para saber qual inicial eu escolher no inicio do jogo |
+|Jogador Curioso     | Entrar na parte das historias dos lendarios     | Para entender mais sobre o universo Pokémon           |
+                                                                                    
 > Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
 > ferramenta poderosa para a compreensão e elicitação dos requisitos
