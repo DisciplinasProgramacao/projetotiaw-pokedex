@@ -55,13 +55,13 @@
 
 ......  COLOQUE AQUI O SEU TEXTO ......
  
-Nosso objetivo é fazer um site de pokémon que
-apresenta uma pokedéx geral, completa e com mais filtros. 
-Além de um guia explicando algumas funcionalidades 
-que os jogos não explicam direito, como um guia de iniciais e atributos,
-os tipos dos pokemon e suas vantagens e desvantagens,
-e um guia sobre os iniciais de cada região.
-> 
+> Nosso objetivo é fazer um site de pokémon que
+> apresenta uma pokedéx geral, completa e com mais filtros. 
+> Além de um guia explicando algumas funcionalidades 
+> que os jogos não explicam direito, como um guia de iniciais e atributos,
+> os tipos dos pokemon e suas vantagens e desvantagens,
+> e um guia sobre os iniciais de cada região.
+
 > **Link Útil**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
