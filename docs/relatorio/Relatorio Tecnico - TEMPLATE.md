@@ -88,9 +88,8 @@
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+> uma API para a aplicação dos Pokemon.
+> Utilização de html, css e javascript aprendidas em sala de aula.
 
 ## Personas
 
@@ -123,10 +122,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Jogador Experiente  | Saber os iniciais de algum jogo especifico      | Para saber qual inicial eu escolher no inicio do jogo |
 |Jogador Curioso     | Entrar na parte das historias dos lendarios     | Para entender mais sobre o universo Pokémon           |
                                                                                     
-> Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> da sua aplicação. Utilize as personas criadas como atores e, se for o caso, um administrador. 
 >
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -140,8 +135,10 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário pesquise os Pokemon | ALTA | 
+|RF-002| permitir a filtragem de pokemon por tipo   | MÉDIA |
+|RF-003| mostrar um guia de iniciais de cada geração   | MÉDIA |
+|RF-003| Explicar as historias dos pokemon lendarios   | BAIXA |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
