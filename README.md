@@ -15,7 +15,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 * João Caram Santos de Oliveira
 
 ## Quadro de tarefas
-Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
+https://github.com/orgs/DisciplinasProgramacao/projects/38
 
 ## Instruções para uso
 Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
