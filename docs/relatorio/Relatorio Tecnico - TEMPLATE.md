@@ -9,11 +9,11 @@
 
 ## Participantes
 
-> Os membros do grupo são: 
-> - Gustavo Silvino
-> - Gustavo Ferreira
-> - Diogo dos Santos 
-> - Julia Fernandes Malaquias
+ Os membros do grupo são: 
+- Gustavo Silvino
+- Gustavo Ferreira
+- Diogo dos Santos 
+- Julia Fernandes Malaquias
 
 
 # Estrutura do Documento
@@ -60,28 +60,10 @@ e um guia sobre os iniciais de cada região.
 
 ## Público-Alvo
 
+Nosso Publico-alvo são pessoas que gostam, ou que apresentam algum interesse em Pokemon, independente da sua idade,
+seja que pessoas novatas que querem começar a jogar algum jogo da franquia, de jogadores mais experientes, que precisam de algum tipo de site de consulta, 
+e até mesmo os curiosos que querem saber de alguma informação sobre um pokemon
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
 > 
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
@@ -89,21 +71,13 @@ e um guia sobre os iniciais de cada região.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> uma API para a aplicação dos Pokemon.
-> Utilização de html, css e javascript aprendidas em sala de aula.
+Uma API para a aplicação dos Pokemon.
+Utilização de html, css e javascript aprendidas em sala de aula.
 
 ## Personas
+![TIAW_Modelo_Persona-1](https://user-images.githubusercontent.com/115491493/196257999-4895cbea-0914-4cc1-893e-c082b7e7b359.jpg)
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
 >
 > **Links Úteis**:
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
