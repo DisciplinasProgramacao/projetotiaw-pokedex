@@ -76,8 +76,8 @@ Uma API para a aplicação dos Pokemon.
 Utilização de html, css e javascript aprendidas em sala de aula.
 
 ## Personas
-![TIAW_Modelo_Persona-1](https://user-images.githubusercontent.com/115491493/196257999-4895cbea-0914-4cc1-893e-c082b7e7b359.jpg)
-![TIAW_Modelo_Persona2-1](https://user-images.githubusercontent.com/115491493/196258213-dd019958-a123-49f9-8160-4e0f0e165e68.jpg)
+![TIAW_Modelo_Persona-1](images/TIAW_Modelo_Persona-1.jpg)
+![TIAW_Modelo_Persona2-1](images/TIAW_Modelo_Persona2-1.jpg)
 
 >
 > **Links Úteis**:
@@ -136,10 +136,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
+
 > 
 > **Links Úteis**:
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
