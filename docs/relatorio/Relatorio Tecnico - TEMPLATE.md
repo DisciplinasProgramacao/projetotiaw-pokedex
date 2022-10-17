@@ -134,7 +134,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+![Wireframe da tela inical](images/wireframe-inicial.jpg)
 
 
 > 
@@ -158,7 +158,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 
 > **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
+> ![Exemplo de Diagrama de Navegação](images/wireframe-inicial.jpg)
 
 # Conclusões
 
