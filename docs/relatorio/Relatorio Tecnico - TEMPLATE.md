@@ -77,6 +77,7 @@ Utilização de html, css e javascript aprendidas em sala de aula.
 
 ## Personas
 ![TIAW_Modelo_Persona-1](https://user-images.githubusercontent.com/115491493/196257999-4895cbea-0914-4cc1-893e-c082b7e7b359.jpg)
+![TIAW_Modelo_Persona2-1](https://user-images.githubusercontent.com/115491493/196258213-dd019958-a123-49f9-8160-4e0f0e165e68.jpg)
 
 >
 > **Links Úteis**:
@@ -85,8 +86,6 @@ Utilização de html, css e javascript aprendidas em sala de aula.
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 > 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
  
 
 ## Histórias de Usuários
@@ -110,12 +109,15 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário pesquise os Pokemon | ALTA | 
-|RF-002| permitir a filtragem de pokemon por tipo   | MÉDIA |
-|RF-003| mostrar um guia de iniciais de cada geração   | MÉDIA |
-|RF-003| Explicar as historias dos pokemon lendarios   | BAIXA |
+|ID    | Descrição do Requisito                        | Prioridade |
+|------|-----------------------------------------------|------------|
+|RF-001| Permitir que o usuário pesquise os Pokemon    |   ALTA     |
+|RF-005| Permitir o usuário colocar seu jogo e seu Pokemon favorito       |   ALTA     | 
+|RF-002| permitir a filtragem de pokemon por geração   |   ALTA     | 
+|RF-003| permitir a filtragem de pokemon por tipo      |   MÉDIA    |
+|RF-005| Explicar como funciona os atributos nos jogos |   BAIXA    |
+|RF-004| Mostrar um guia de iniciais de cada geração   |   MÉDIA    |
+|RF-005| Mostrar os jogos da Franquia Pokemoon         |   BAIXA    |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
