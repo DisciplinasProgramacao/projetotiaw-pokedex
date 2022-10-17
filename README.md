@@ -26,4 +26,8 @@ Nosso objetivo é resolver isso criando a nossa própria Pokedex, uma Pokédex g
 https://github.com/orgs/DisciplinasProgramacao/projects/38
 
 ## Instruções para uso
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+Criar conta: Acessar o site de cadastro -> colocar o nome -> colocar a senha -> responder a pergunta -> criar a conta -> acessar a pagina da pokedex.
+Pokedex: na pagina principal: colocar o nome de algum Pokemon ou id -> apertar o botão para pesquisar -> esperar aparecer a informação na tela.
+    |
+    V
+   Opcional: na pagina principal: selecionar o tipo do Pokemon -> selecionar a geração do Pokemon -> apertar o botão para pesquisar -> apertar nas setas para ir trocando    o pokemon.
