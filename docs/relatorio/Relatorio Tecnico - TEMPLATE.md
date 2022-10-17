@@ -9,10 +9,6 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
 > - Gustavo Silvino
 > - Gustavo Ferreira
@@ -42,8 +38,6 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 > As pokedex dos jogos oficiais da franquia pokemon,
 > principalmente os jogos mais antigos não possuem todos
 > os filtros de tipagem, filtro por região, apenas os 
@@ -53,21 +47,30 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
  
-> Nosso objetivo é fazer um site de pokémon que
-> apresenta uma pokedéx geral, completa e com mais filtros. 
-> Além de um guia explicando algumas funcionalidades 
-> que os jogos não explicam direito, como um guia de iniciais e atributos,
-> os tipos dos pokemon e suas vantagens e desvantagens,
-> e um guia sobre os iniciais de cada região.
+Nosso objetivo é fazer um site de pokémon que
+apresenta uma pokedéx geral, completa e com mais filtros. 
+Além de um guia explicando algumas funcionalidades 
+que os jogos não explicam direito, como um guia de iniciais e atributos,
+os tipos dos pokemon e suas vantagens e desvantagens,
+e um guia sobre os iniciais de cada região.
 
 > **Link Útil**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
+> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
+> diferentes perfis. O objetivo aqui não é definir quem serão os
+> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
+> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
+> usuários: conhecimentos prévios, relação com a tecnologia, relações
+> hierárquicas, etc.
+>
+> Adicione informações sobre o público-alvo por meio de uma descrição
+> textual, ou diagramas de personas, mapa de stakeholders, ou como o
+> grupo achar mais conveniente.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
