@@ -1,0 +1,127 @@
+
+.header {
+    background-color: #ac1a1a;
+}
+/* inicio navbar*/
+
+.logo {
+    width: 70%;
+    padding: 5px;
+}
+div.navbar {
+    justify-content:center;
+}
+
+
+div.navbar nav a {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+}
+/* Fim navbar*/
+/* Inicio Pokedex */
+.body{
+    background-color:black;
+}
+.main {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pokedex {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.tipo label, .geracao label {
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+}
+.tipo,.geracao {
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fa-arrow-right, .fa-arrow-left {
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+}
+.pokedex .pokemon-display{
+    display: flex;
+    border-radius: 10px;
+    background-image: url(imagens/pokedex-template.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 15px;
+    border-bottom-width: 40px;
+    height: 550px;
+}
+.pokedex .pokemon-display .pokemon-status {
+    display: block;
+
+}
+
+
+.pokedex .pokemon-display img{
+    top: 30px;
+    height: 300px;
+    width: 300px;
+}
+.pokedex .pokemon-display .info{
+    font-size: 40px;
+    font-weight: 500;
+    height: 166px;
+    display: block;
+    left: 100px;
+    top: 50px;
+}
+.pokedex .pokemon-display p{
+    margin: 0px;
+}
+.pokedex .pokemon-display .type{
+    font-size: 35px;
+    font-weight: 500;
+    height: 166px;
+    display: block;
+    left: 40px;
+    top: 44%;
+}
+.pokedex .pokemon-display .status{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    top: 70%;
+    right: 95%;
+    height: 140px;
+    width: 100px;
+    border-collapse: collapse;
+}
+.status th, .status td { 
+    padding: 0px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.pokedex .pesquisa {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Fim Pokedex */
+
+/* Inicio Rodapé */
+.footer{
+    background-color: #ac1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Fim Rodapé */
