@@ -54,6 +54,21 @@ h1{
 /* Fim parte inicial */
 
 
+/* Inicio Botão */
+
+.pagina-inicial .texto-inicial div.col-12 button{
+    margin: 35px;
+    background-color: #ac1a1a;
+    border-color: black;
+    width: 40%;
+}
+.pagina-inicial .texto-inicial div.col-12 button a{
+    color: white;
+}
+
+/* Final Botão */
+
+
 
 /* Inicio Rodapé */
 .footer {
