@@ -1,0 +1,245 @@
+
+.header {
+    background-color: #ac1a1a;
+}
+/* inicio navbar*/
+
+.logo {
+    width: 70%;
+    padding: 5px;
+}
+div.navbar {
+    justify-content:center;
+}
+
+
+div.navbar nav a {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+}
+/* Fim navbar*/
+
+/* Inicio Tipos */
+.main .pagina-atributos{
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+}
+.main .pagina-atributos div.row{
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main .pagina-atributos p{
+    font-weight: 500;
+    font-size: large;
+}
+
+.pagina-atributos div.row{
+    padding: 0px;
+    margin: 15px;
+}
+
+.introducao-atributos, .HP, .attack, .defense, .spdefense, .spattack, .speed, .atb-temporarios, .evasiveness, .acuracy, .outros, .nature, .iv, .ev{
+    margin: 10px;
+}
+
+.pagina-atributos .introducao-atributos p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .introducao-atributos .imagem{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagina-atributos .introducao-atributos .imagem img{
+    width: 90%;
+}
+
+.pagina-atributos .HP h2{
+    margin: 15px;
+}
+
+.pagina-atributos .HP p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .attack h2{
+    margin: 15px;
+}
+
+.pagina-atributos .attack p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.pagina-atributos .defense h2{
+    margin: 15px;
+}
+
+.pagina-atributos .defense p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .spattack h2{
+    margin: 15px;
+}
+
+.pagina-atributos .spattack p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .spdefense h2{
+    margin: 15px;
+}
+
+.pagina-atributos .spdefense p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .speed h2{
+    margin: 15px;
+}
+
+.pagina-atributos .speed p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .atb-temporarios h1{
+    margin: 15px;
+}
+
+.pagina-atributos .atb-temporarios p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .acuracy h2{
+    margin: 15px;
+}
+
+.pagina-atributos .acuracy p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .acuracy .imagem{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagina-atributos .acuracy .imagem img{
+    width: 90%;
+}
+
+.pagina-atributos .evasiveness h2{
+    margin: 15px;
+}
+
+.pagina-atributos .evasiveness p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .evasiveness .imagem{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagina-atributos .evasiveness .imagem img{
+    width: 90%;
+}
+.pagina-atributos .outros h1{
+    margin: 15px;
+}
+
+.pagina-atributos .outros p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.pagina-atributos .nature h2{
+    margin: 15px;
+}
+
+.pagina-atributos .nature p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.pagina-atributos .nature .imagem{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagina-atributos .nature .imagem img{
+    width: 90%;
+}
+
+.pagina-atributos .iv h2{
+    margin: 15px;
+}
+
+.pagina-atributos .iv p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.pagina-atributos .ev h2{
+    margin: 15px;
+}
+
+.pagina-atributos .ev p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-align: justify;
+}
+/* Fim Tipos */
+
+/* Inicio Rodapé */
+.footer{
+    background-color: #ac1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Fim Rodapé */
