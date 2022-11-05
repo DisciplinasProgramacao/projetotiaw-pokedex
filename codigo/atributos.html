@@ -12,7 +12,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous">
     <!--css bootstrap fim-->
-    <link rel="stylesheet" href="atributos.css">
+    <link rel="stylesheet" href="style.css">
     <title>Pokedex</title>
 </head>
 <body>
@@ -46,7 +46,7 @@
 <main class="container main">
     <div class="pagina-atributos">
         <div class="row">
-            <div class="col-12 introducao-atributos">
+            <div class="col-12 texto" id="introducao-atributos">
                 <h1>Introdução aos Atributos</h1>
                 <p>
                     As Estaticas, ou Stats, é um elemento que tremendamente determinante nas batalhas dos jogos Pokemon.
@@ -61,12 +61,12 @@
                     Existem seis atributos: HP (Pontos de Vida), Speed (Agilidade), Attack (Ataque), Defense (Defesa),Sp. Attack (Ataque Especial) e Sp. Defense (Defesa Especial).
                 </p>
                 <div class="col-12 imagem">
-                    <img src="imagens/atributos.jpg" alt="Atributos Pokemon" class="img-atributos">
+                    <img src="imagens/atributos.jpg" alt="Atributos Pokemon" id="img-atributos">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 HP">
+            <div class="col-12 texto" id="HP">
                 <h2>Atributo de Saúde, o HP</h2>
                 <p> 
                     O atributo de saúde (HP) influencia a vida total do Pokémon.
@@ -87,7 +87,7 @@
                     ou visitando o Pokécentro de qualquer cidade.
                 </p>
             </div>
-            <div class="col-12 attack">
+            <div class="col-12 texto" id="attack">
                 <h2>Atributo de Ataque Fisico, o Attack</h2>
                 <p> 
                     O atributo de Ataque (ATK) determina quanto dano um Pokémon causa ao usar um Movimento físico(que relativamente toque no Pokémon do oponente).
@@ -95,14 +95,14 @@
                     Os ataques físicos, os ataques especias e os ataques de status.
                 </p>
             </div>
-            <div class="col-12 defense">
+            <div class="col-12 texto" id="defense">
                 <h2>Atributo de Defesa Fisica, a Defense</h2>
                 <p> 
                     O atributo de Defense(DEF) determina quanto dano um Pokémon recebe quando é atingido por um movimento físico.
                     Quanto maior a defesa do Pokémon, será menor o dano que ele receberá de algum Ataque Físico.
                 </p>
             </div>
-            <div class="col-12 spattack">
+            <div class="col-12 texto" id="spattack">
                 <h2>Atributo de Ataque Especial, O Special Attack</h2>
                 <p> 
                     O atributo de  Sp. Attack(SP. ATK) determina quanto dano um Pokémon causa ao usar um Ataque Especial.
@@ -110,14 +110,14 @@
                     Diferente do Attack(ATK), em que os movimentos necessitam de contato com o Pokémon.
                 </p>
             </div>
-            <div class="col-12 spdefense">
+            <div class="col-12 texto" id="spdefense">
                 <h2>Atributo de Defesa Especial, A Special Defense</h2>
                 <p> 
                     O atributo de SP.Defense(SP. DEF) determina quanto dano um Pokémon recebe quando é atingido por um movimento especial.
                     Quanto maior a defesa especial do Pokémon, será menor o dano que ele receberá de algum Ataque Especial.
                 </p>
             </div>
-            <div class="col-12 speed">
+            <div class="col-12 texto" id="speed">
                 <h2>Atributo de Velocidade, A Speed</h2>
                 <p> 
                     O atributo de Speed(SPD) determina a ordem de Pokémon que pode agir em batalha.
@@ -137,7 +137,7 @@
         </div> 
         
         <div class="row">
-            <div class="col-12 atb-temporarios">
+            <div class="col-12 texto" id="atb-temporarios">
                 <h1>Atributos temporários</h1>
                 <p>
                     Existem dois atributos exclusivos de batalha, quando a batalha terminam, esses atributos voltam ao normal.
@@ -145,7 +145,7 @@
                     Os atributos de batalha são:
                 </p>
             </div>
-            <div class="col-12 evasiveness">
+            <div class="col-12 texto" id="evasiveness">
                 <h2>Evasiveness (Evasiva)</h2>
                 <p>
                     Esse atributo determina a probabilidade de seu Pokémon evitar movimentos de outros Pokémon na batalha, ou seja, o quanto de poder de desvio do Pokémon.
@@ -154,22 +154,22 @@
                     Se a evasão aumentar acima de 100% com um movimento como o Double Team, outros Pokémon terão mais dificuldade em conectar seus movimentos.
                 </p>
                 <div class="col-12 imagem">
-                    <img src="imagens/evasion.jpg" alt="evasion Pokemon" class="img-evasion">
+                    <img src="imagens/evasion.jpg" alt="evasion Pokemon" id="img-evasion">
                 </div>
             </div>
-            <div class="col-12 acuracy">
+            <div class="col-12 texto" id="acuracy">
                 <h2>Acuracy (Precisão)</h2>
                 <p>
                     Esse atributo determina a probabilidade de seu Pokémon acertar outro Pokémon. Digamos que o quanto de "mira" ele tem para acertar o ataque no oponente.
                     O valor no início de qualquer batalha é de 100%. Existem itens e movimentos que aumentar a precisão do Pokemon.
                 </p>
                 <div class="col-12 imagem">
-                    <img src="imagens/acuracy.png" alt="acuracy Pokemon" class="img-acuracy">
+                    <img src="imagens/acuracy.png" alt="acuracy Pokemon" id="img-acuracy">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 outros">
+            <div class="col-12 texto" id="atb-competitivos">
                 <h1>Outros Atributos: </h1>
                 <p>
                     Existem outras estatísticas que diferenciam os Pokémon de suas especies, elas são: IV, EV e Natures.
@@ -180,7 +180,7 @@
                     OBS: isso são atributos voltados ao Competitivo de Pokémon, então se você é um jogador casual, isso não impacta muito em sua jogatina.
                 </p>
             </div>
-            <div class="col-12 nature">
+            <div class="col-12 texto" id="nature">
                 <h2>Nature</h2>
                 <p>
                     A Nature é uma mecânica que influencia os stats de um Pokémon, aumentando e diminuindo um stat específico.
@@ -190,10 +190,10 @@
                     A Tabela abaixo mostra quais os atributos que cada Nature mexe:
                 </p>
                 <div class="col-12 imagem">
-                    <img src="imagens/Tabela_de_Natures.png" alt="tabela nature Pokemon" class="img-nature">
+                    <img src="imagens/Tabela_de_Natures.png" alt="tabela nature Pokemon" id="img-nature">
                 </div>
             </div>
-            <div class="col-12 iv">
+            <div class="col-12 texto" id="iv">
                 <h2>Individual Values</h2>
                 <p>
                     São os genes (DNA) do seu Pokémon, os famosos pontos ocultos de 0 a 31 que vem de nascença e não podem ser mudados.
@@ -201,7 +201,7 @@
                     e outros infelizmente nascem com genes ruins que geralmente são Pokémon descartados pelos jogadores de competitivo.
                 </p>
             </div>
-            <div class="col-12 ev">
+            <div class="col-12 texto" id="ev">
                 <h2>Effort Values</h2>
                 <p>
                     São os valores de esforço que seu Pokémon ganha batalhando com Pokémon selvagens
