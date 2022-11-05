@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--css bootstrap fim-->
-    <link rel="stylesheet" href="cadastro-dex.css">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro</title>
 </head>
 <body>
@@ -29,12 +29,13 @@
             <div class="col-8 col-sm-10 col-md-10 col-lg-11  navbar">
                 <nav class="nav nav-pills flex-column flex-sm-row">
                     <div class="menu"></div>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="home.html">Home</a>
                         <a class="flex-sm-fill text-sm-center nav-link" href="pokedex.html">Pokedex</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Iniciais</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="iniciais.html">Iniciais</a>
                         <a class="flex-sm-fill text-sm-center nav-link" href="tipos.html">Tipos</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Atributos</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Lendarios</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Jogos</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="atributos.html">Atributos</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="lendarios.html">Lendarios</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="jogos.html">Jogos</a>
                         <a class="flex-sm-fill text-sm-center nav-link" href="treinador.html"><i class="fa-solid fa-user"></i> Treinador</a>
                         <a class="flex-sm-fill text-sm-center nav-link" href="cadastro.html">Cadastro</a>
                     </div>
@@ -42,36 +43,41 @@
             </div>
         </div>
         <!-- fim cabeçalho com logo e barra de navegação-->
-    
     </header>
+<!--Inicio Tela de cadastro -->
 <main class="container main">
-    <main>
-        <h1>Crie Sua conta</h1>
-        
-        <form action="">
-            <label for="name">
-                <span>Nome</span>
-                <input type="text" id="name" name="name">
-            </label>
+    <div class="row">
+        <div class="col-12 cadastro">
+            <h1>Crie Sua conta</h1>
+            
+            <form action="">
+                <label for="name">
+                    <span>Nome</span>
+                    <input type="text" id="name" name="name">
+                </label>
 
-            <label for="email">
-                <span>E-mail</span>
-                <input type="email" id="email" name="email">
-            </label>
+                <label for="email">
+                    <span>E-mail</span>
+                    <input type="email" id="email" name="email">
+                </label>
 
-            <label for="password">
-                <span>Senha</span>
-                <input type="password" id="password" name="password">
-            </label>
+                <label for="password">
+                    <span>Senha</span>
+                    <input type="password" id="password" name="password">
+                </label>
 
-            <label for="pokemonfav">
-                <span>Qual seu pokemon Favorito? </span>
-                <input type="text" id="name" name="name">
-            </label>
+                <label for="pokemonfav">
+                    <span>Qual seu pokemon Favorito? </span>
+                    <input type="text" id="name" name="name">
+                </label>
 
-            <input type="submit" value="Sign Up" id="button">
-        </form>
-    </main>
+                <input type="submit" value="Sign Up" id="button">
+            </form>
+        </div>
+    </div>
+    
+</main>
+<!--Final da Tela de cadastro -->
     
 
 </main>
