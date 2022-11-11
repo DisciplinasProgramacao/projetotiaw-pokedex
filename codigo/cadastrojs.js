@@ -1,31 +1,6 @@
-let bancoCadastros = JSON.parse(localStorage.getItem("cadastros"));
-
-if (!bancoCadastros) {
+var bancoCadastros = JSON.parse(localStorage.getItem("cadastros"));
 
 
-    bancoCadastros = [
-        {
-            "nome": "Gustavo",
-            "email": "gustavohf15@hotmail.com",
-            "senha": "123456",
-            "pokemonFavorito": "Electivire",
-            "jogoFavorito": "Platinum",
-            "plataforma": "emulador",
-            "tipoFavorito": "fogo",
-
-        },
-        {
-            "nome": "Enzo",
-            "email": "enzobolado@hotmail.com",
-            "senha": "123",
-            "pokemonFavorito": "Charizard",
-            "jogoFavorito": "Fire Red ",
-            "plataforma": "emulador",
-            "tipoFavorito": "vento",
-
-        }
-    ]
-}
 
 function limparForm() {
     document.getElementById("name1").value = "";
@@ -67,15 +42,42 @@ function cadastrarNovo() {
 
 
 function logar(){
-    email1 = document.getElementById('email').value; 
-    password1 = document.getElementById('senha').value; 
-   
-    if(email1 == document.getElementById("email").value && password1 == document.getElementById("senha").value){
-        alert('sucesso');
-        location.href="pokedex.html";
-    }else{
-        alert('usuário incorreto'); 
+    var emailcad = document.getElementById("email").value;
+    var senhacad = document.getElementById("senha").value;
+    
+    let listaUser = []
+
+    var Uservalid = {
+        nome: '',
+        email: '',
+        senha: '',
+        pokemonFavorito: '',
+        jogoFavorito: '',
+        plataforma: '',
+        tipoFavorito: ''
     }
+    
+    listaUser = JSON.parse(localStorage.getItem("cadastros"));
+    listaUser.forEach ((item) => {
+            if(emailcad == item.email && senhacad == item.senha) {
+                Uservalid = {
+                    nome: item.nome,
+                    email: item.email,
+                    senha: item.senha,
+                    pokemonFavorito: item.pokemonFavorito,
+                    jogoFavorito: item.jogoFavorito,
+                    plataforma: item.plataforma,
+                    tipoFavorito: item.tipoFavorito
+                }
+            }
+        }
+    )
+    
 
-
+    if (emailcad == Uservalid.email && senhacad == Uservalid.senha) {
+        alert("LOGADO");
+        location.href="pokedex.html";
+    } else {
+        alert("USUÁRIO INCORRETO");
+    }
 }
