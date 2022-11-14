@@ -280,7 +280,7 @@ div.navbar nav a {
 
 /* inicio da pagina de login*/
 
-.login {
+.treinador {
     justify-content: center;
     padding: 20px;
     display: flex;
@@ -318,6 +318,9 @@ div.navbar nav a {
     background-color:red;
     cursor: pointer;
 }
+.treinador #perfil{
+    display: none;
+}
 
 /* fim da pagina de login*/
 
@@ -351,20 +354,20 @@ div.navbar nav a {
     margin-top: 25px;
 }
 
-.cadastro form input {
+.cadastro form .form-control {
     background: white;
     width: 300px;
     height: 50px;
     padding: 0 0.5rem;
     margin-top: 1rem;
     outline: none;
-    color: rgba(166, 166, 166);
+    color: rgb(0, 0, 0);
     font-size: 17px;
     border: 1px solid #040B18;
     border-radius: 8px;
 }
 
-.cadastro form input[type="submit"] {
+.cadastro form .form-control[type="submit"] {
     cursor: pointer;
     width: 50%;
     margin-top: 3rem;
