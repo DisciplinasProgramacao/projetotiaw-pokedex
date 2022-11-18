@@ -318,8 +318,13 @@ div.navbar nav a {
     background-color:red;
     cursor: pointer;
 }
-.treinador #perfil{
+.treinador #perfil, #btnSalvar {
     display: none;
+}
+
+#btnEditar {
+    display: flex;
+    text-align: right;
 }
 
 /* fim da pagina de login*/

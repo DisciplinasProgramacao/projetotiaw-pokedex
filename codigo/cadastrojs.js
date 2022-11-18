@@ -34,7 +34,7 @@ function cadastrarNovo() {
         "pokemonFavorito": pokefav1,
         "jogoFavorito": gamefav1,
         "plataforma": plat1,
-        "tipoFavorito": typefav1,
+        "tipoFavorito": typefav1
     }
 
     bancoCadastros.push(novoCadastro);
@@ -44,16 +44,13 @@ function cadastrarNovo() {
 
 
 }
+var Uservalid = {}
 
 function logar() {
     var emailcad = document.getElementById("email").value;
     var senhacad = document.getElementById("senha").value;
 
-    var listaUser = []
-    var Uservalid ={}
-
-    listaUser = JSON.parse(localStorage.getItem("cadastros"));
-    listaUser.forEach((item) => {
+    bancoCadastros.forEach((item) => {
         if (emailcad == item.email && senhacad == item.senha) {
             Uservalid = {
                 nome: item.nome,
@@ -62,7 +59,7 @@ function logar() {
                 pokemonFavorito: item.pokemonFavorito,
                 jogoFavorito: item.jogoFavorito,
                 plataforma: item.plataforma,
-                tipoFavorito: item.tipoFavorito
+                tipoFavorito: item.tipoFavorito,
             }
         }
     }
@@ -87,17 +84,17 @@ function trocadiv() {
 
 function perfil(Uservalid) {
 
-    strnome = `<label for="first_name">
+    let strnome = `<label for="first_name">
                         <h4>Nome do Treinador</h4>
                     </label>
                     <input type="text" class="form-control" name="perfilNomeTreinador"
-                    placeholder="${Uservalid.nome}" id="nomePerfil">`;
+                    value="${Uservalid.nome}" id="nomePerfil" disabled>`;
 
     let strInicialFavorito = `<label for="inicial-favorito">
     <h4>Inicial Favorito</h4>
 </label>
 <select class="form-control form-select" aria-label="Default select example"
-    id="perfilInicialFavorito">
+    id="perfilInicialFavorito" disabled>
     <option selected>${Uservalid.pokemonFavorito}</option>
     <option value="0">SEM PREFERÊNCIA</option>
     <option value="1">BULBASAUR</option>
@@ -130,7 +127,7 @@ function perfil(Uservalid) {
     <h4>Jogo Favorito</h4>
 </label>
 <select class="form-control form-select" aria-label="Default select example"
-id="perfilGameFav">
+id="perfilGameFav" disabled>
     <option selected>${Uservalid.jogoFavorito}</option>
     <option value="0">SEM PREFERÊNCIA</option>
     <option value="1">POKEMON RED/BLUE/YELLOW</option>
@@ -153,7 +150,7 @@ id="perfilGameFav">
     <h4>Tipo Favorito</h4>
 </label>
 <select class="form-control form-select"
-    aria-label="Default select example" id="perfiltipofav">
+    aria-label="Default select example" id="perfiltipofav" disabled>
     <option selected>${Uservalid.tipoFavorito}</option>
     <option value="0">SEM PREFERÊNCIA</option>
     <option value="1">NORMAL</option>
@@ -179,7 +176,7 @@ id="perfilGameFav">
     <h4>Plataforma aonde jogo</h4>
 </label>
 <select class="form-control form-select"
-    aria-label="Default select example" id="perfilplat">
+    aria-label="Default select example" id="perfilplat" disabled>
     <option value="0">${Uservalid.plataforma}</option>
     <option value="0">SEM PREFERÊNCIA</option>
     <option value="1">COMPUTADOR</option>
@@ -192,4 +189,54 @@ id="perfilGameFav">
     document.querySelector("#perfilJogoFav").innerHTML = strjogoFavorito;
     document.querySelector("#perfiltipoFav").innerHTML = strtipoFavorito;
     document.querySelector("#perfilPlatfav").innerHTML = strplataforma;
+}
+
+function editaPerfil() {
+    desabilitabtns(editaPerfil);
+    
+}
+function salva() {
+    desabilitabtns(salva);
+    let novoNome = document.getElementById("nomePerfil").value;
+    let novoPoke = pegaSelect("perfilInicialFavorito");
+    let novoJogo = pegaSelect("perfilGameFav");
+    let novaPlat = pegaSelect("perfilplat");
+    let novoTipo = pegaSelect("perfiltipofav");
+    bancoCadastros.forEach((item) => {
+        if (item.email == Uservalid.email && item.senha == Uservalid.senha) {
+            let indexItem = bancoCadastros.indexOf(item);
+            bancoCadastros.splice(indexItem, 1);
+            item = {
+                nome: novoNome,
+                email: item.email,
+                senha: item.senha,
+                pokemonFavorito: novoPoke,
+                jogoFavorito: novoJogo,
+                plataforma: novaPlat,
+                tipoFavorito: novoTipo,
+            }
+            bancoCadastros.push(item)
+            localStorage.setItem("cadastros", JSON.stringify(bancoCadastros));
+        }
+    })
+
+
+}
+function desabilitabtns(funcao) {
+    if(funcao == editaPerfil) {
+        document.querySelector("#nomePerfil").disabled = false;
+        document.querySelector("#perfilInicialFavorito").disabled = false;
+        document.querySelector("#perfilGameFav").disabled = false;
+        document.querySelector("#perfiltipofav").disabled = false;
+        document.querySelector("#perfilplat").disabled = false;
+        document.querySelector("#btnSalvar").style.display = 'block';
+
+    } else if(funcao == salva) {
+        document.querySelector("#nomePerfil").disabled = true;
+        document.querySelector("#perfilInicialFavorito").disabled = true;
+        document.querySelector("#perfilGameFav").disabled = true;
+        document.querySelector("#perfiltipofav").disabled = true;
+        document.querySelector("#perfilplat").disabled = true;
+        document.querySelector("#btnSalvar").style.display = 'none';
+    }
 }

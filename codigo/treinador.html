@@ -65,11 +65,11 @@
                 <div class="row">
                     <!--left col-->
                     <div class="col-sm-12">
-                        <div class="text-center">
+                        <br>
+                        <button class="btn btn-lg btn-secondary" id="btnEditar" type="button" onclick="editaPerfil()">Editar</button>
+                        <div class="text-center" id="imagemAvatar">
                             <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png"
                                 class="avatar img-circle img-thumbnail" alt="avatar">
-                            <h6>Upload a different photo...</h6>
-                            <input type="file" class="text-center center-block file-upload" id="imgperfil">
                         </div>
                         </hr><br>
                     </div>
@@ -96,7 +96,7 @@
                                             <label for="inicial-favorito">
                                                 <h4>Inicial Favorito</h4>
                                             </label>
-                                            <select class="form-control form-select" aria-label="Default select example" id="perfilInicialFavorito">>
+                                            <select class="form-control form-select" aria-label="Default select example" id="perfilInicialFavorito" disabled>
                                                 <option value="0" selected>SEM PREFERÊNCIA</option>
                                                 <option value="1">BULBASAUR</option>
                                                 <option value="2">CHARMANDER</option>
@@ -131,7 +131,7 @@
                                             <label for="inicial-favorito">
                                                 <h4>Jogo Favorito</h4>
                                             </label>
-                                            <select class="form-control form-select" aria-label="Default select example" id="perfilGameFav">
+                                            <select class="form-control form-select" aria-label="Default select example" id="perfilGameFav" disabled>
                                                 <option value="0" selected>SEM PREFERÊNCIA</option>
                                                 <option value="1">POKEMON RED/BLUE/YELLOW</option>
                                                 <option value="2">POKEMON FIRE RED/LEAF GREEN</option>
@@ -158,7 +158,7 @@
                                                 <h4>Tipo Favorito</h4>
                                             </label>
                                             <select class="form-control form-select"
-                                                aria-label="Default select example" id="perfiltipofav">
+                                                aria-label="Default select example" id="perfiltipofav" disabled>
                                                 <option value="0" selected>SEM PREFERÊNCIA</option>
                                                 <option value="1">NORMAL</option>
                                                 <option value="2">FIRE</option>
@@ -187,7 +187,7 @@
                                                 <h4>Plataforma aonde jogo</h4>
                                             </label>
                                             <select class="form-control form-select"
-                                                aria-label="Default select example" id="perfilplat">
+                                                aria-label="Default select example" id="perfilplat" disabled>
                                                 <option value="0" selected>SEM PREFERÊNCIA</option>
                                                 <option value="1">COMPUTADOR</option>
                                                 <option value="2">PORTÁTIL DA NINTENDO</option>
@@ -198,8 +198,7 @@
                                     <div class="form-group">
                                         <div class="col-xs-12">
                                             <br>
-                                            <button class="btn btn-lg btn-success" type="submit" onclick="atualizaPerfil()"><i
-                                                    class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                                            <button class="btn btn-lg btn-success" id="btnSalvar" type="button" onclick="salva()">Salvar</button>
                                         </div>
                                     </div>
                                 </form>
