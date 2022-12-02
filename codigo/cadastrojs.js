@@ -1,15 +1,17 @@
 var bancoCadastros = JSON.parse(localStorage.getItem("cadastros"));
-
+if(!bancoCadastros) {
+    bancoCadastros = []
+}
 
 
 function limparForm() {
     document.getElementById("name1").value = "";
     document.getElementById("email1").value = "";
     document.getElementById("password1").value = "";
-    document.getElementById("pokefav1").value = "";
-    document.getElementById("gamefav1").value = "";
-    document.getElementById("plat1").value = "";
-    document.getElementById("typefav1").value = "";
+    document.getElementById("pokefav1").value = '<option value="0">SEM PREFERÊNCIA</option>';
+    document.getElementById("gamefav1").value = '<option value="0">SEM PREFERÊNCIA</option>';
+    document.getElementById("plat1").value = '<option value="0">SEM PREFERÊNCIA</option>';
+    document.getElementById("typefav1").value = '<option value="0">SEM PREFERÊNCIA</option>';
 
 }
 function pegaSelect(id) {
@@ -26,22 +28,23 @@ function cadastrarNovo() {
     var gamefav1 = pegaSelect("gamefav1");
     var plat1 = pegaSelect("plat1");
     var typefav1 = pegaSelect("typefav1");
-
-    var novoCadastro = {
-        "nome": name1,
-        "email": email1,
-        "senha": password1,
-        "pokemonFavorito": pokefav1,
-        "jogoFavorito": gamefav1,
-        "plataforma": plat1,
-        "tipoFavorito": typefav1
+    if(name1 == '' || email1 == '' || password1 == '' || !(email1.includes("@"))) {
+        alert("Cadastro invalido, favor colocar Nome, email e senhas corretos")
+    } else {
+        var novoCadastro = {
+            "nome": name1,
+            "email": email1,
+            "senha": password1,
+            "pokemonFavorito": pokefav1,
+            "jogoFavorito": gamefav1,
+            "plataforma": plat1,
+            "tipoFavorito": typefav1
+        }
+        bancoCadastros.push(novoCadastro);
+        localStorage.setItem("cadastros", JSON.stringify(bancoCadastros));
+        limparForm();
+        location.href='treinador.html';
     }
-
-    bancoCadastros.push(novoCadastro);
-    localStorage.setItem("cadastros", JSON.stringify(bancoCadastros));
-
-    limparForm();
-
 
 }
 var Uservalid = {}

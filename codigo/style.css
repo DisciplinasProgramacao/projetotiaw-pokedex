@@ -285,6 +285,7 @@ div.navbar nav a {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .Tela-login {
@@ -293,6 +294,7 @@ div.navbar nav a {
     border-radius: 15px;
     color: #fff;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .Tela-login input {
@@ -332,14 +334,13 @@ div.navbar nav a {
 /* inicio da pagina de Cadastro*/
 
 .cadastro{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cadastro h1 {
     color: red;
     font-size: 50px;
-    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -352,11 +353,11 @@ div.navbar nav a {
 .cadastro form label {
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .cadastro form label span {
-    font-size: 17px;
-    margin-top: 25px;
+    font-size: 15px;
 }
 
 .cadastro form .form-control {
@@ -364,7 +365,7 @@ div.navbar nav a {
     width: 300px;
     height: 50px;
     padding: 0 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0px;
     outline: none;
     color: rgb(0, 0, 0);
     font-size: 17px;
@@ -372,7 +373,7 @@ div.navbar nav a {
     border-radius: 8px;
 }
 
-.cadastro form .form-control[type="submit"] {
+.cadastro form .form-control[type="button"] {
     cursor: pointer;
     width: 50%;
     margin-top: 3rem;
