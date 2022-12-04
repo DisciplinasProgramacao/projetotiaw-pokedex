@@ -13,6 +13,7 @@
     crossorigin="anonymous">
     <!--css bootstrap fim-->
     <link rel="stylesheet" href="style.css">
+    <script defer src="scriptpokedex.js"></script>
     <title>Pokedex</title>
 </head>
 <body>
@@ -42,7 +43,7 @@
     </div>
     <!-- fim cabeçalho com logo e barra de navegação-->
 </header>
-<main class="container main">
+<main class="container main" id="principalll">
     <img src="#" alt="pokemon" class="pokemon__image">
 
     <h1 class="pokemon__data">
@@ -51,7 +52,12 @@
     </h1>
 
     <form  class="form" id="formulaario">
-      <input type="search" class="input__search" placeholder="Número ou Nome" required/>
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Número ou Nome"
+        required
+      />
     </form>
 
     <div class="buttons" id="botauns">
