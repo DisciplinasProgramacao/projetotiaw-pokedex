@@ -43,29 +43,76 @@
     </div>
     <!-- fim cabeçalho com logo e barra de navegação-->
 </header>
-<main class="container main" id="principalll">
-    <img src="#" alt="pokemon" class="pokemon__image">
+<main class="container main">
+    <div class="pagina-pokedex">
+        <div class="row">    
+            <div class="col-4 form-floating" id="escolhe-tipo">
+                <label for="floatingSelect">Tipo:</label>
+                <select class="form-select" id="floatingType" aria-label="Floating label select example">
+                  <option value="0" selected>TODOS</option>
+                  <option value="1">NORMAL</option>
+                  <option value="2">FIGHTING</option>
+                  <option value="3">FLYING</option>
+                  <option value="4">POISON</option>
+                  <option value="5">GROUND</option>
+                  <option value="6">ROCK</option>
+                  <option value="7">BUG</option>
+                  <option value="8">GHOST</option>
+                  <option value="9">STEEL</option>
+                  <option value="10">FIRE</option>
+                  <option value="11">WATER</option>
+                  <option value="12">GRASS</option>
+                  <option value="13">ELECTRIC</option>
+                  <option value="14">PSYCHIC</option>
+                  <option value="15">ICE</option>
+                  <option value="16">DRAGON</option>
+                  <option value="17">DARK</option>
+                  <option value="18">FAIRY</option>
+                </select>
+            </div>
+            <div class="col-4 form-floating" id="escolhe-geracao">
+                <label for="floatingSelect">Geração:</label>
+                <select class="form-select" id="floatingGeracao" aria-label="Floating label select example">
+                  <option selected>TODOS</option>
+                  <option value="1">I</option>
+                  <option value="2">II</option>
+                  <option value="3">III</option>
+                  <option value="4">IV</option>
+                  <option value="5">V</option>
+                  <option value="6">VI</option>
+                  <option value="7">VII</option>
+                  <option value="8">VIII</option>
+                </select>
+            </div>
+            <div class="col-4" id="pesquisa">
+                <form class="d-flex" id="formPesquisa" role="search">
+                    <input type="search" class="input__search" placeholder="Número ou Nome" required>
+                </form>
+            </div>
+        </div>
+        <div class="row pokedex">
+            <div class="col-2 setas" id="seta-esquerda">
+                <button id="bot1" class="button btn-prev"> &lt;</button>
+            </div>
 
-    <h1 class="pokemon__data">
-      <span class="pokemon__number"></span> -
-      <span class="pokemon__name"></span>
-    </h1>
-
-    <form  class="form" id="formulaario">
-      <input
-        type="search"
-        class="input__search"
-        placeholder="Número ou Nome"
-        required
-      />
-    </form>
-
-    <div class="buttons" id="botauns">
-      <button id="bot1"class="button btn-prev"> &lt;</button>
-      <button id="bot1" class="button btn-next"> &gt;</button>
+            <div class="col-8 pokemon-display">
+                <img class="col-5" id="pokemon__image" src="#">
+                <div class="col-3" id="info">
+                    <p id="pokemon__number"></p>
+                    <p id="pokemon__name"></p>
+                </div>
+                <div class="col-3" id="type">
+                    <p id="pokemontype1"></p>
+                    <p id="pokemontype2"></p>
+                </div>
+                <table class="col-11" id="status">
+                </table>            
+            </div>
+            <div class="col-2 setas" id="seta-direita">
+                <button id="bot2" class="button btn-next"> &gt;</button>
+            </div>
+        </div>
     </div>
-
-    <img src="imagens/pokedex-template.png" alt="pokedex" class="pokedex">
 </main>
 <footer class="container-fluid footer">
     <div class="row">

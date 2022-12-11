@@ -92,76 +92,131 @@ div.navbar nav a {
 
 /* inicio da pagina da pokedex */
 
-body {
+.pagina-pokedex {
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pokedex {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.pagina-pokedex .form-floating {
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px;
+}
+
+.setas {
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+}
+.pokedex .pokemon-display{
+    display: flex;
+    border-radius: 10px;
+    background-image: url(https://i.im.ge/2022/11/14/SuWMnc.pokedex-template.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 15px;
+    border-bottom-width: 40px;
+    height: 550px;
+}
+.pokedex .pokemon-display .pokemon-status {
+    display: block;
+
+}
+
+
+.pokedex .pokemon-display img{
+    top: 40px;
+    height: 300px;
+    width: 300px;
+}
+
+#info{
+    font-size: 40px;
+    font-weight: 500;
+    height: 120px;
+    display: block;
+    left: 13%;
+    top: 50px;
+    width: 400px;
+}
+#pokemon__name {
+    width: 300px;
+}
+
+.pokedex .pokemon-display p{
+    margin: 0px;
+}
+.pokedex .pokemon-display #type{
+    font-size: 35px;
+    font-weight: 500;
+    height: 110px;
+    display: block;
+    left: 30px;
+    top: 45%;
+}
+
+#type p {
+    width: 150px;
+}
+.pokedex .pokemon-display #status{
     text-align: center;
-    
-    min-height: 100vh;
-  }
-  
-  #principalll {
-    display: inline-block;
-    margin-top: 3%;
-    
-    position: relative;
-  }
-  
-  .pokedex {
-    width: 100%;
-    max-width: 700px;
-  }
-  
-  .pokemon__image {
-    position: absolute;
-    bottom: 55%;
-    left: 40%;
-    transform: translate(-63%, 40%);
-    height: 38%;
-  }
-  
-  .pokemon__data {
-    position: absolute;
-    font-weight: 600;
-    color: #1939d5;
-    top: 23.5%;
-    right: 31%;
-    font-size: clamp(8px, 5vw, 25px);
-  }
-  
-  .pokemon__name {
-    color: #3a444d;
-    text-transform: capitalize;
-  }
-  
-  .form {
-    position: absolute;
-    width: 70%;
-    top: 46%;
-    left: 32.5%;
-  }
-  
-  .input__search {
-    width: 38%;
-    padding: 3%;
+    font-size: x-large;
+    font-weight: 500;
+    top: 70.3%;
+    right: 87.5%;
+    height: 140px;
+    border-collapse: collapse;
+}
+#status th, #status td { 
+    padding: 0px;
+    border: solid 1px rgb(0, 0, 0);
+}
+#pesquisa {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.input__search {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    padding: 1%;
     outline: none;
-    border: 3px solid #333;
-    border-radius: 30px;
+    border: 2px solid #333;
+    border-radius: 10px;
     font-weight: 600;
     color: #3a444d;
     font-size: clamp(8px, 5vw, 1rem);
-    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
-  }
-  
-  .buttons {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    width: 25%;
-    transform: translate(-55%, 0);
-    display: flex;
-    gap: 40px;
-  }
-  
-  .button {
+    box-shadow: -2px 1px 0 #888, -3px 4px 0 #333
+}
+
+.form-select {
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -1px 1px 0 #888, -2px 3px 0 #333
+}
+
+.form-floating label{
+    margin-right: 5px;
+}
+.setas button {
     width: 50%;
     padding: 5%;
     border: 2px solid #000;
@@ -171,14 +226,12 @@ body {
     color: white;
     background-color: #444;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-  }
-  
-  .button:active {
+}
+
+.setas button:active {
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
-  }
-
-
+}
 /* fim da pagina da pokedex */
 
 /* padrão dos guias */
@@ -400,4 +453,3 @@ body {
 
 
 /* Fim Rodapé */
-
