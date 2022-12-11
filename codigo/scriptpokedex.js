@@ -104,7 +104,7 @@ form.addEventListener('submit', async (event) => {
     if(isNumber(procurado) == false) {
       pokeName = resultados[i].name;
       if(pokeName.startsWith(procurado)) {
-        console.log(pokeName)
+
         achou = true;
         renderPokemon(pokeName);
       }
