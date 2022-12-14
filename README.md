@@ -9,6 +9,12 @@ A Pokédex sempre foi, nos jogos, um catalogo que apenas mostrava os Pokémon ca
 filtragem de Pokémon presentes nos jogos, como o tipo e sua geração.
 Nosso objetivo é resolver isso criando a nossa própria Pokedex, uma Pokédex geral com filtros a fim de corrigir os problemas da Pokedex original.
 
+# Requisitos cumpridos: 100/100
+    
+## Comentários da correção
+
+Parabéns pelo trabalho, pessoal. Ficou completo, bem organizado, informações interessantes e totalmente funcional. A disposição de vocês com o projeto só com 2 pessoas foi admirável. 
+
 
 ## Alunos integrantes da equipe
 
