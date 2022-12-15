@@ -10,7 +10,11 @@ filtragem de Pokémon presentes nos jogos, como o tipo e sua geração.
 Nosso objetivo é resolver isso criando a nossa própria Pokedex, uma Pokédex geral com filtros a fim de corrigir os problemas da Pokedex original.
 
 # Requisitos cumpridos: 100/100
-    
+
+# Nota de apresentação 90/100
+
+**Importante:** A nota-base do grupo é calculada a partir das porcentagens acima. A nota individual leva em consideração ainda a nota de acompanhamento nas reuniões de grupos, a participação efetiva nas tarefas e commits e os descontos por falta nas reuniões. 
+
 ## Comentários da correção
 
 Parabéns pelo trabalho, pessoal. Ficou completo, bem organizado, informações interessantes e totalmente funcional. A disposição de vocês com o projeto só com 2 pessoas foi admirável. 
